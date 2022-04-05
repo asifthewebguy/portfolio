@@ -1,6 +1,6 @@
 {
-"nuxt.isNuxtApp": true,
-"cSpell.words": [
+  "nuxt.isNuxtApp": true,
+  "cSpell.words": [
     "commitlint",
     "esversion",
     "lintfix",
@@ -8,5 +8,5 @@
     "nuxtjs",
     "stylelint",
     "tailwindcss"
-]
+  ]
 }
