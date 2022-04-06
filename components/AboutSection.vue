@@ -3,7 +3,7 @@
     class="flex justify-between sm:justify-center sm:flex-col-reverse intro"
   >
     <div class="text">
-      <h2 class="text-5xl sm:text-center">Asif Chowdhury</h2>
+      <h2 class="text-5xl sm:text-center">Md Asif Ullah Chowdhury</h2>
       <span class="text-3xl sm:text-center"
         >Full Stack Web Developer & UI/UX Designer</span
       >
