@@ -17,7 +17,7 @@
         </li>
         <li class="w-full px-2"><a href="#">About</a></li>
         <li class="w-full px-2"><a href="#">Work</a></li>
-        <li class="w-full px-2"><a href="#">Contact</a></li>
+        <li class="w-full px-2"><NuxtLink to="/contact">Contact</NuxtLink></li>
         <li class="w-full px-2"><a href="#">Resume</a></li>
         <li class="w-full px-2">
           <a href="#"
