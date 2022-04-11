@@ -14,7 +14,8 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    // link: [{ rel: 'dns-prefetch', href: '//fonts.googleapis.com' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -32,6 +33,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    // https://go.nuxtjs.dev/google-fonts
+    '@nuxtjs/google-fonts',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
@@ -56,6 +59,15 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  // googleFonts
+  googleFonts: {
+    display: 'swap',
+    families: {
+      Amiri: true,
+      Cinzel: true,
+      Roboto: true,
+    },
+  },
   // tailwind config
   tailwindcss: {
     configPath: './tailwindcss.config.js',

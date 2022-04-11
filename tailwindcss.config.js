@@ -5,6 +5,8 @@ module.exports = {
     fontFamily: {
       // roboto
       sans: ['Roboto', 'sans-serif'],
+      // cinzel
+      serif: ['Amiri', 'Cinzel', 'serif'],
     },
     fontSize: {
       //  base, lg, xl, 2xl, 3xl, 5xl,
