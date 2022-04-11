@@ -1,6 +1,6 @@
 <template>
   <section class="text-center">
-    <h1 class="text-3xl">
+    <h1 class="text-5xl">
       Md Asif Ullah Chowdhury
       <br />
       Full Stack Web Developer & UI/UX Designer

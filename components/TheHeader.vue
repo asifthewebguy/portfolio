@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex justify-between w-full shadow-md sm:justify-center sm:flex-col md:flex-col"
+    class="font-serif flex justify-between w-full shadow-md sm:justify-center sm:flex-col md:flex-col"
   >
     <TheLogo />
     <TheNavigation />

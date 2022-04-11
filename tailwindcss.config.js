@@ -6,7 +6,9 @@ module.exports = {
       // roboto
       sans: ['Roboto', 'sans-serif'],
       // cinzel
-      serif: ['Amiri', 'Cinzel', 'serif'],
+      serif: ['Cinzel', 'serif'],
+      // amiri body
+      body: ['Amiri', 'serif'],
     },
     fontSize: {
       //  base, lg, xl, 2xl, 3xl, 5xl,
