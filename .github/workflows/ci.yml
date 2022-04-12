@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: npm ci --prefer-offline --no-audit
 
+      - name: Run linter fix 😍😍😍😎😎😎🥰
+        run: npm run lintfix
+
       - name: Run linter 👀
         run: npm run lint
 
@@ -51,3 +54,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          cname: portfolio.asifthewebguy.me
