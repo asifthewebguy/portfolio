@@ -58,7 +58,7 @@
                 </div> -->
     </a>
     <div class="hidden sm:flex md:flex">
-      <button class="menu-button">
+      <button class="menu-button" aria-label="Open Menu">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="w-6 h-6"
