@@ -1,13 +1,13 @@
 <template>
   <div class="container grid grid-cols-1 mx-auto divide-y-2 sm:mx-0 md:w-md">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-      <div class="relative bg-white shadow-xl rounded-3xl">
+      <div class="relative bg-white shadow-2xl rounded-3xl">
         <h2 class="sr-only">Contact us</h2>
 
         <div class="grid grid-cols-1 xl:grid-cols-2">
           <!-- Contact information -->
           <div
-            class="relative overflow-hidden py-10 px-6 bg-black sm:px-10 xl:p-12"
+            class="relative overflow-hidden py-10 px-6 bg-black sm:px-10 xl:p-12 xl:rounded-l-3xl xl:rounded-tr-none rounded-t-3xl"
           >
             <div
               class="absolute inset-0 pointer-events-none sm:hidden"
@@ -117,7 +117,7 @@
             <dl class="mt-8 space-y-6">
               <dt><span class="sr-only">Phone number</span></dt>
               <!-- <dd class="flex text-base text-blue-50">
-              <svg class="flex-shrink-0 w-6 h-6 text-blue-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <svg class="flex-shrink-0 w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               <span class="ml-3">+1 (555) 123-4567</span>
@@ -125,7 +125,7 @@
               <dt><span class="sr-only">Email</span></dt>
               <dd class="flex text-base text-blue-50">
                 <svg
-                  class="flex-shrink-0 w-6 h-6 text-blue-200"
+                  class="flex-shrink-0 w-6 h-6 text-white"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -147,7 +147,7 @@
             <ul role="list" class="mt-8 flex space-x-12">
               <li>
                 <a
-                  class="text-blue-200 hover:text-blue-100"
+                  class="text-white hover:text-blue-100"
                   target="_blank"
                   href="https://www.facebook.com/AsifTheWebGuy"
                 >
@@ -170,7 +170,7 @@
               </li>
               <li>
                 <a
-                  class="text-blue-200 hover:text-blue-100"
+                  class="text-white hover:text-blue-100"
                   target="_blank"
                   href="https://github.com/asifthewebguy"
                 >
@@ -193,7 +193,7 @@
               </li>
               <li>
                 <a
-                  class="text-blue-200 hover:text-blue-100"
+                  class="text-white hover:text-blue-100"
                   target="_blank"
                   href="#"
                 >
