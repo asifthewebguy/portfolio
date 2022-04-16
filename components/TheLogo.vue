@@ -51,11 +51,11 @@
         >
       </h1>
       <!-- <div class="">
-                    <p class="hidden sm:flex">SM</p>
-                    <p class="hidden md:flex">MD</p>
-                    <p class="hidden lg:flex">LG</p>
-                    <p class="hidden xl:flex">XL</p>
-                </div> -->
+        <p class="hidden sm:flex">SM</p>
+        <p class="hidden md:flex">MD</p>
+        <p class="hidden lg:flex">LG</p>
+        <p class="hidden xl:flex">XL</p>
+      </div> -->
     </a>
     <div class="hidden sm:flex md:flex">
       <button class="menu-button" aria-label="Open Menu">

@@ -1,10 +1,10 @@
 <template>
-  <div class="">
+  <div class="container grid grid-cols-1 mx-auto divide-y-2 sm:mx-0 md:w-md">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <div class="relative bg-white shadow-xl rounded-3xl">
         <h2 class="sr-only">Contact us</h2>
 
-        <div class="grid grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 xl:grid-cols-2">
           <!-- Contact information -->
           <div
             class="relative overflow-hidden py-10 px-6 bg-black sm:px-10 xl:p-12"
@@ -219,11 +219,11 @@
 
           <!-- Contact form -->
           <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-            <h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
+            <h3 class="text-lg font-medium text-gray-900">Send me message</h3>
             <form
               action="https://contact.asifthewebguy.me/sendMail"
               method="POST"
-              class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+              class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-1 sm:gap-x-8"
             >
               <input
                 type="hidden"
@@ -237,7 +237,7 @@
               />
               <input type="hidden" name="to" value="asifthewebguy@gmail.com" />
               <input type="hidden" name="to_name" value="Asif Chowdhury" />
-              <div>
+              <div class="sm:col-span-2">
                 <label
                   for="name"
                   class="block text-sm font-medium text-gray-900"
@@ -253,7 +253,7 @@
                   />
                 </div>
               </div>
-              <div>
+              <div class="sm:col-span-2">
                 <label
                   for="from"
                   class="block text-sm font-medium text-gray-900"
@@ -269,7 +269,7 @@
                   />
                 </div>
               </div>
-              <div>
+              <div class="sm:col-span-2">
                 <div class="flex justify-between">
                   <label
                     for="phone"
