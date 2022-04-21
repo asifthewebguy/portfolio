@@ -1,5 +1,5 @@
 <template>
-  <div class="justify-between logo group sm:flex md:flex">
+  <div class="justify-between logo group sm:flex md:flex px-4">
     <a href="/" class="flex items-center">
       <svg
         class="group-hover:animate-bounce"

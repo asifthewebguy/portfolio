@@ -18,5 +18,10 @@
     "stylelint",
     "tailwindcss",
     "wght"
-  ]
+  ],
+  "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "on"
+  },
 }
