@@ -175,7 +175,7 @@ export default {
     //   onsubmit send fromdata to url
     onSubmit() {
       // fetch  with cors post request response and redirect to contact page
-      fetch('https://contact.asifthewebguy.me/sendMail', {
+      fetch('https://sendmail.asifthewebguy.workers.dev/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
