@@ -20,8 +20,8 @@
     "wght"
   ],
   "editor.quickSuggestions": {
-      "other": "on",
-      "comments": "off",
-      "strings": "on"
-  },
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  }
 }
