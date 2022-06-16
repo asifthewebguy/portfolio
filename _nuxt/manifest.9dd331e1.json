@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "short_name": "portfolio",
-  "description": "## Build Setup",
+  "description": "Asif's portfolio.",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.a44b59.png",
